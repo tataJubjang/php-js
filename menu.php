@@ -39,11 +39,11 @@ $menu = trim(fgets(STDIN));
 if ($menu == 3){
 system('clear');
 sleep(2);
-echo "UPDATE";
+echo "UPDATE\n";
 system('rm -rf menu.php');
 sleep(2);
 system('clear');
-echo "UPNewFile";
+echo "UPNewFile\n";
 sleep(4);
 system('wget https://raw.githubusercontent.com/tataJubjang/php-js/main/menu.php');
 sleep(1);
@@ -57,9 +57,11 @@ system('clear');
 echo "~~~~~~~~~~~\n";
 sleep(4);
 system('clear');
-echo "~~~~~~~~~~~~~~~ [√]\n";
+echo "~~~~~~~~~~~~~~~ [√] Open Menu Auto\n";
 sleep(4);
 system('clear');
+sleep(1);
+system('php menu.php');
 }
 
 if ($menu == 1){
