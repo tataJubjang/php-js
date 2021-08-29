@@ -45,7 +45,7 @@ sleep(2);
 system('clear');
 echo "UPNewFile";
 sleep(4);
-sysyem('wget https://raw.githubusercontent.com/tataJubjang/php-js/main/menu.php');
+system('wget https://raw.githubusercontent.com/tataJubjang/php-js/main/menu.php');
 sleep(1);
 system('clear');
 echo "~~~~\n";
