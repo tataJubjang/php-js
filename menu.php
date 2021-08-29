@@ -38,7 +38,16 @@ $menu = trim(fgets(STDIN));
 
 if ($menu == 3){
 system('clear');
+sleep(2);
+echo "UPDATE";
+system('rm -rf menu.php');
+sleep(2);
+system('clear');
+echo "UPNewFile";
+sleep(4);
+sysyem('wget https://raw.githubusercontent.com/tataJubjang/php-js/main/menu.php');
 sleep(1);
+system('clear');
 echo "~~~~\n";
 sleep(2);
 system('clear');
